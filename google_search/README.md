@@ -7,24 +7,26 @@ Use selenium to execute google search specific keyword, and get results' links
 
 ## Installation
 
-OS X & Linux & Windows:
+```
+git clone https://github.com/nullchief/python.git
+```
+And copy google_search.py file to where you want to use.
 
-```
-edit autoexec.bat
-```
 
 ## Usage example
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
-
-_For more examples and usage, please refer to the [Wiki][wiki]._
+```python
+import google_search
+links=google_search.google_search("the keywrods you want",5)
+```
+_For more examples and usage, please refer to the [writeup][writeup]._
 
 
 ## Release History
-
+* 0.1.1
+	* Change: Update the README.md and google_search.md
 * 0.1.0
     * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
 * 0.0.1
     * Work in progress
 
@@ -32,9 +34,7 @@ _For more examples and usage, please refer to the [Wiki][wiki]._
 
 Cody – [@nullchief](https://twitter.com/nullchief) – py_.-@hotmail.com
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
-
 [https://github.com/nullchief/python](https://github.com/nullchief/python)
 
 
-
+[writeup]: https://github.com/nullchief/python/blob/master/google_search/google_search.md
